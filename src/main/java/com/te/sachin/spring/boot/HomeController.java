@@ -14,6 +14,10 @@ public class HomeController {
 	@RequestMapping(method=RequestMethod.GET,value="/hello/s2")  
     public String hello1(){  
         return"Hello sachin!";  
-    }  
+    }
+    @RequestMapping(method=RequestMethod.GET,value="/hello/s3")  
+    public String hello1(){  
+        return"Hello banny!";  
+    }    
 
 }
