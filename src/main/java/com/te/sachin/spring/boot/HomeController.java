@@ -16,7 +16,7 @@ public class HomeController {
         return"Hello sachin!";  
     }
     @RequestMapping(method=RequestMethod.GET,value="/hello/s3")  
-    public String hello1(){  
+    public String hello2(){  
         return"Hello banny!";  
     }    
 
